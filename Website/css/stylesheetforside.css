@@ -1,0 +1,265 @@
+header {
+    background-color: #FFCEF2;
+    width: 375px; 
+    height: 70px;
+    border: 0px;
+    background-position: center;
+    margin: 0px;
+    font-size: 30px;
+}
+.topnav input[type=text] {
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+    height: 17px;
+    text-align: center;
+    padding-top: 5 px;
+    width: 132px;
+}
+.topnav {
+    height: 20px;
+    position: absolute;
+    right: 40%;
+    top: 12px;
+}
+element.style {
+    top:2%;
+    left: 27%;
+    position: absolute;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    text-align: -webkit-match-parent;
+}
+header img {
+    width: 60px;
+    height: 60px;
+    padding: 5px 13px;
+    float: left;
+}
+header ul {
+    list-style-type: none;
+    padding-right: 10px;
+    float:right;
+}
+header li {
+    display: inline-block;
+    padding: 17px 5px;
+}
+header a {
+    text-decoration: none;
+    color: #18122c;
+}
+body {
+    margin: 0px;
+    background-color:#FFF5FE;
+    width: 375px;
+    height: 1114px;
+}
+button {
+    background-color:#F6FF8D;
+    border-radius: 60px;
+    font-size: 35px;
+    border:0px;
+    margin: 0px;
+    width: 256px;
+    top: 125px;
+    left: 67px;
+    position: absolute;
+    height: 97px;
+    font-family: avenir; 
+}
+div {
+    display: block;
+}
+img {
+    width: 375px;
+    height: 281px;
+}
+footer {
+    background-color: #FFCEF2;
+    position: absolute;
+    width: 375px;
+    height: 144px;
+    background-position: center;
+    margin-top: -4px;
+}
+.content {    
+    display:inline-block;
+    position:relative;
+    margin-top: -4px;
+}
+.knapbillede {
+    max-width: 375px;
+    height:auto;
+}
+.infobox {
+    background-color: #93E6FF;
+    position: absolute;
+    bottom: 158px;
+    left: 131px;
+    text-align: left;
+    border-radius: 28px;
+    width: 207px;
+    height: 110px;
+    padding: 11px;
+    padding-top: 3px;
+    color: #0093FF;
+    font-weight: bold;
+    padding-left: 16px;
+    font-size: 14px;
+    font-family: arial black;
+}
+.infobox h2 {
+    font-size:small;
+}
+.infobox p {
+    background-color: #0093FF;
+    color: white;
+    border-radius: 5px;
+    width: 116px;
+    height: 38px;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: avenir;
+}
+footer {
+display: flex;
+flex-direction: row;
+font-family: arial black;
+color:#FF6464;
+text-align:center;
+}
+footer section {
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    margin-left: 12px;
+}
+footer p {
+    padding-top: 1px;
+    margin: 1px;
+    font-size: 12px;
+}
+.produkter h1 {
+    position: absolute;
+    font-size: 41px;
+    left: 84px;
+    font-family: arial black;
+    top: 142px;
+    font-weight: bolder;
+}
+.produktbilleder {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 24px;
+    font-family: avenir;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom:46px;
+}
+.produktbilleder img {
+    width: 146px;
+    height: 219px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.produktbilleder p {
+    padding-left: 0px;
+    margin: 0px;
+    margin-left: -46px;
+    font-size: small;
+}
+.produktbilleder figure {
+    margin: 0px;
+}
+.pufkjole p {
+    padding-right:0px;
+}
+.peterplysbuks p {
+    padding-left: 44px;
+}
+.peterplyssæt p {
+    padding-left: 37px;
+}
+.hafferlaf p {
+    padding-left: 31px;
+}
+.grisling p {
+    padding-left: 28px;
+}
+.pinkpopsæt p {
+    padding-left: 31px;
+}
+.produktside {
+    width: 253px;
+    height: 379px;
+    margin: 61px;
+    padding-bottom: 358px;
+    padding-top: 30px;
+}
+.produktbeskrivelse h2 {
+    margin: 0px;
+    position: absolute;
+    left: 60px;
+    text-align: left;
+    top: 118px;
+    font-family: arial black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.info h2 {
+    position: relative;
+    left: 62px;
+    bottom: 439px;
+    font-family: avenir;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block; 
+}
+.info p {
+    position: relative;
+    left: 63px;
+    bottom: 455px;
+    font-family: avenir;
+    font-weight: bold;
+    font-size: larger;
+    display: inline-block;
+}
+.info p1 {
+    position: relative;
+    font-family: avenir;
+    font-weight: bold;
+    font-size: larger;
+    left: 63px;
+    bottom: 445px;
+    display: inline-block; 
+}
+.button2 {
+    background-color: #B9EFFF;
+    border-radius: 88px;
+    font-size: 15px;
+    border: 0px;
+    margin: 0px;
+    width: 164px;
+    top: 755px;
+    left: 102px;
+    position: absolute;
+    height: 41px;
+    font-family: avenir;
+    font-weight: bold;
+}
